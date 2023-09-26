@@ -5,7 +5,6 @@ import Navbar from "./Navbar/Navbar";
 
 const Header = () => {
     const {pathname} = useLocation()
-    console.log(pathname)
 
     return (
         <div>

@@ -4,8 +4,8 @@ import Navbar from "../Navbar/Navbar";
 const BannerWithNav = () => {
     return (
         <div>
-            <div className="bg-banner-background hero bg-no-repeat bg-cover ">
-                <div className="bg-[#58e7fa40]  w-full h-full">
+            <div className="bg-banner-background bg-blend-multiply bg-no-repeat bg-cover ">
+                <div className="bg-[#ffffffdf]  w-full h-full">
                     <Navbar></Navbar>
                     <Banner></Banner>
                 </div>

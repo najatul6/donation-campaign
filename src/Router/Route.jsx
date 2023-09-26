@@ -23,7 +23,8 @@ const myCreatedRouter = createBrowserRouter([
             },
             {
                 path: "/statistics",
-                element: <Statistics></Statistics>
+                element: <Statistics></Statistics>,
+                loader: () => fetch('/cardData.json')
             },
             {
                 path: "/card/:id",
