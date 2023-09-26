@@ -11,7 +11,7 @@ const Statistics = () => {
         const totalDonationL = cards.length;
         const yourDonationL = donationsItem.length;
         const yourDonate = (yourDonationL / totalDonationL) * 100;
-        const totalDonate = 100 - yourDonate;
+        const totalDonate = (totalDonationL / 100) * 100;
         const yourDonatedPercentage = yourDonate.toFixed(1)
         const totalDonatedPercentage = totalDonate.toFixed(1)
         setTotalDonation(parseFloat(yourDonatedPercentage));
