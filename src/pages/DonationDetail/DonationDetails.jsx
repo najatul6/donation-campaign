@@ -24,7 +24,6 @@ const DonationDetails = ({ donationCard }) => {
             }
 
         }
-        // console.log(donationCard)
         localStorage.setItem()
     }
 
