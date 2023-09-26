@@ -33,7 +33,7 @@ const Navbar = () => {
                             menu === true ? <AiOutlineClose className="text-3xl"></AiOutlineClose> : <AiOutlineAlignLeft className="text-3xl"></AiOutlineAlignLeft>
                         }
                     </div>
-                    <img className="h-[72px]" src="/public/Logo.png" alt="This is Donation campaign logo" />
+                    <img className="h-[72px]" src="/Logo.png" alt="This is Donation campaign logo" />
                 </div>
                 <ul className={`md:flex absolute md:static md:bg-transparent duration-1000 px-2 py-2 rounded-lg ${menu ? 'top-14 left-3' : '-top-32'} bg-slate-500`}>
                     {links}
